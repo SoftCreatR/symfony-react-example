@@ -1,0 +1,15 @@
+App\Entity\Post:
+  post_{1..20}:
+    title: <sentence()>
+    body: <text()>
+
+App\Entity\User:
+  user_{1..3}:
+    name: <firstNameMale()> <lastName()>
+    description: <sentence()>
+    imageURL: <randomPortraitUrl('men')>
+
+  user_{4..6}:
+    name: <firstNameFemale()> <lastName()>
+    description: <sentence()>
+    imageURL: <randomPortraitUrl('women')>

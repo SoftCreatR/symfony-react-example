@@ -1,0 +1,31 @@
+{
+    "name": "@softcreatr/symfony-react-example",
+    "version": "1.0.0",
+    "description": "Example Symfony project using React.",
+    "homepage": "https://github.com/SoftCreatR/symfony-react-example",
+    "bugs": "https://github.com/SoftCreatR/symfony-react-example/issues",
+    "license": "MIT",
+    "scripts": {
+        "dev-server": "encore dev-server",
+        "dev": "encore dev",
+        "watch": "encore dev --watch",
+        "build": "encore production --progress"
+    },
+    "devDependencies": {
+        "@babel/preset-react": "^7.10.1",
+        "@symfony/webpack-encore": "^0.30.0",
+        "axios": "^0.19.2",
+        "core-js": "^3.0.0",
+        "prop-types": "^15.7.2",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "regenerator-runtime": "^0.13.2",
+        "webpack-notifier": "^1.6.0"
+    },
+    "dependencies": {
+        "@babel/plugin-proposal-class-properties": "^7.10.1",
+        "@babel/plugin-transform-runtime": "^7.10.1",
+        "react-router-dom": "^5.2.0"
+    },
+    "private": true
+}
